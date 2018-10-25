@@ -1,0 +1,555 @@
+IF
+OR(3)
+Die()
+CheckStatLT(Myself,1,INT)
+CheckStatLT(Myself,1,STR)
+THEN
+RESPONSE #100
+LeaveParty()
+CreateVisualEffectObject("SPROTECT",Myself)
+ApplySpellRES("SPWI055",Myself)
+END
+
+IF
+HPPercentLT(Myself,50)
+CheckStatLT(Myself,100,RESISTSLASHING)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+XPLT(Myself,1000000)
+OR(3)
+Difficulty(EASIEST)
+Difficulty(EASY)
+Difficulty(NORMAL)
+THEN
+RESPONSE #100
+ReallyForceSpellRES("VALENMST",Myself) 
+MakeUnselectable(62)
+END
+
+IF
+HPPercentLT(Myself,50)
+CheckStatLT(Myself,100,RESISTSLASHING)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+XPGT(Myself,999999)
+XPLT(Myself,2000000)
+OR(3)
+Difficulty(EASIEST)
+Difficulty(EASY)
+Difficulty(NORMAL)
+THEN
+RESPONSE #100
+ReallyForceSpellRES("VALENMST",Myself)  
+MakeUnselectable(56)
+END
+
+IF
+HPPercentLT(Myself,50)
+CheckStatLT(Myself,100,RESISTSLASHING)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+XPGT(Myself,1999999)
+XPLT(Myself,3000000)
+OR(3)
+Difficulty(EASIEST)
+Difficulty(EASY)
+Difficulty(NORMAL)
+THEN
+RESPONSE #100
+ReallyForceSpellRES("VALENMST",Myself) 
+MakeUnselectable(50)
+END
+
+IF
+HPPercentLT(Myself,50)
+CheckStatLT(Myself,100,RESISTSLASHING)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+XPGT(Myself,2999999)
+XPLT(Myself,4000000)
+OR(3)
+Difficulty(EASIEST)
+Difficulty(EASY)
+Difficulty(NORMAL)
+THEN
+RESPONSE #100
+ReallyForceSpellRES("VALENMST",Myself)  
+MakeUnselectable(44)
+END
+
+IF
+HPPercentLT(Myself,50)
+CheckStatLT(Myself,100,RESISTSLASHING)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+XPGT(Myself,3999999)
+OR(3)
+Difficulty(EASIEST)
+Difficulty(EASY)
+Difficulty(NORMAL)
+THEN
+RESPONSE #100
+ReallyForceSpellRES("VALENMST",Myself) 
+MakeUnselectable(40)
+END
+
+IF
+!GlobalTimerNotExpired("Sun","LOCALS")
+AreaType(OUTDOOR)
+AreaType(DAYNIGHT)
+!TimeOfDay(NIGHT)
+THEN
+RESPONSE #100
+ReallyForceSpellRES("VALEN",Myself) 
+SetGlobalTimer("Sun","LOCALS",TWELVE_MINUTES)
+END
+
+IF
+OR(7)
+See(SeventhNearestEnemyOf(Myself))
+See(SixthNearestEnemyOf(Myself))
+See(FifthNearestEnemyOf(Myself))
+See(NearestEnemyOf(Myself))
+See(SecondNearestEnemyOf(Myself))
+See(ThirdNearestEnemyOf(Myself))
+See(FourthNearestEnemyOf(Myself))
+False()
+THEN
+RESPONSE #100
+END
+
+IF
+Delay(6)
+CheckStatLT(Myself,100,RESISTSLASHING)
+XPGT(Myself,4000000)
+Allegiance(LastSeenBy(Myself),ENEMY)
+See([EVILCUTOFF])
+!Global("ValenNoCharm","LOCALS",1)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+RESPONSE #100
+ReallyForceSpell(LastSeenBy(Myself),VAMPIRE_DOMINATION) 
+ReallyForceSpell(LastSeenBy(Myself),VAMPIRE_FEAR) 
+END
+
+IF
+Delay(6)
+CheckStatLT(Myself,100,RESISTSLASHING)
+XPGT(Myself,3000000)
+Allegiance(LastSeenBy(Myself),ENEMY)
+See([EVILCUTOFF])
+!Global("ValenNoCharm","LOCALS",1)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+RESPONSE #100
+ReallyForceSpell(LastSeenBy(Myself),VAMPIRE_DOMINATION) 
+RESPONSE #100
+ReallyForceSpell(LastSeenBy(Myself),VAMPIRE_FEAR)  
+END
+
+IF
+Delay(6)
+CheckStatLT(Myself,100,RESISTSLASHING)
+XPGT(Myself,2000000)
+Allegiance(LastSeenBy(Myself),ENEMY)
+See([EVILCUTOFF])
+!Global("ValenNoCharm","LOCALS",1)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+RESPONSE #100
+ReallyForceSpell(LastSeenBy(Myself),VAMPIRE_DOMINATION) 
+END
+
+IF
+Delay(6)
+CheckStatLT(Myself,100,RESISTSLASHING)
+XPGT(Myself,1000000)
+Allegiance(LastSeenBy(Myself),ENEMY)
+See([EVILCUTOFF])
+!Global("ValenNoCharm","LOCALS",1)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+RESPONSE #100
+ReallyForceSpell(LastSeenBy(Myself),TRAP_DIRE_CHARM)  
+END
+
+IF
+Delay(6)
+CheckStatLT(Myself,100,RESISTSLASHING)
+Allegiance(LastSeenBy(Myself),ENEMY)
+See([EVILCUTOFF])
+!Global("ValenNoCharm","LOCALS",1)
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+RESPONSE #100
+ReallyForceSpell(LastSeenBy(Myself),CLERIC_CHARM_PERSON) 
+END
+
+IF
+CheckStatLT(Myself,100,RESISTSLASHING)
+Global("ValenNoAttack","LOCALS",0)
+OR(4)
+See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+See(NearestEnemyOfType([0.0.0.DRUID_ALL]))
+See(NearestEnemyOfType([0.0.0.BARD_ALL]))
+OR(2)
+ActionListEmpty()
+ModalState(DETECTTRAPS)
+Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+CheckStatLT(Myself,100,RESISTSLASHING)
+Global("ValenNoAttack","LOCALS",0)
+See(NearestEnemyOf(Myself))
+OR(2)
+ActionListEmpty()
+ModalState(DETECTTRAPS)
+Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+RESPONSE #100
+Attack(NearestEnemyOf(Myself))
+END
+
+IF
+CheckStatLT(Myself,100,RESISTSLASHING)
+IsValidForPartyDialogue(Myself)
+ActionListEmpty()
+!Detect([EVILCUTOFF])
+!StateCheck(Myself,STATE_INVISIBLE)
+Global("ValenNoHide","LOCALS",0)
+THEN
+RESPONSE #100
+Hide()
+END
+
+IF
+CheckStatLT(Myself,100,RESISTSLASHING)
+ActionListEmpty()
+IsValidForPartyDialogue(Myself)
+OR(2)
+!See(NearestEnemyOf(Myself))
+Global("ValenNoAttack","LOCALS",0)
+!ModalState(DETECTTRAPS)
+!Global("ValenNoDetect","LOCALS",1)
+THEN
+RESPONSE #100
+FindTraps()
+END
+
+IF
+Delay(3)
+OR(19)
+HasItem("blun12",Myself)  // Mace of Disruption +3
+HasItem("blun25",Myself)  // Mace of Disruption +4
+HasItem("hamm10",Myself)  // Runehammer +3
+HasItem("hamm11",Myself)  // Runehammer +4
+HasItem("ax1h10",Myself)  // Azuredge +3
+HasItem("sw1h31",Myself)  // Daystar +4
+HasItem("sw1h64",Myself)  // Purifier +3
+HasItem("sw1h65",Myself)  // Purifier +4
+HasItem("npsw03",Myself)  // Hallowed Redeemer +2
+HasItem("sw2h10",Myself)  // Carsomyr +4
+HasItem("sw2h19",Myself)  // Carsomyr +5
+HasItem("miscau",Myself)  // Elven Holy Water
+HasItem("brac23",Myself)  // Blessed Bracers
+HasItem("c2keld01",Myself)  // Improved Firecam Full-Plate Armor
+HasItem("c2keld02",Myself)  // Hallowed Redeemer +5
+HasItem("c2mazz01",Myself)  // Sword of Arvoreen +5
+HasItem("c2sw1h01",Myself)  // Sunblade: Daystar +4
+HasItem("c2ax1h01",Myself)  // Azuredge +4
+HasItem("c2shld01",Myself)  // Shield of Harmony +3
+THEN
+RESPONSE #100
+ApplyDamagePercent(Myself,50,STUNNING)
+DisplayString(Myself,@9905) 
+GiveItem("blun12",Player1)  // Mace of Disruption +3
+GiveItem("blun25",Player1)  // Mace of Disruption +4
+GiveItem("hamm10",Player1)  // Runehammer +3
+GiveItem("hamm11",Player1)  // Runehammer +4
+GiveItem("ax1h10",Player1)  // Azuredge +3
+GiveItem("sw1h31",Player1)  // Daystar +4
+GiveItem("sw1h64",Player1)  // Purifier +3
+GiveItem("sw1h65",Player1)  // Purifier +4
+GiveItem("npsw03",Player1)  // Hallowed Redeemer +2
+GiveItem("sw2h10",Player1)  // Carsomyr +4
+GiveItem("sw2h19",Player1)  // Carsomyr +5
+GiveItem("miscau",Player1)  // Elven Holy Water
+GiveItem("brac23",Player1)  // Blessed Bracers
+GiveItem("c2keld01",Player1)  // Improved Firecam Full-Plate Armor
+GiveItem("c2keld02",Player1)  // Hallowed Redeemer +5
+GiveItem("c2mazz01",Player1)  // Sword of Arvoreen +5
+GiveItem("c2sw1h01",Player1)  // Sunblade: Daystar +4
+GiveItem("c2ax1h01",Player1)  // Azuredge +4
+GiveItem("c2shld01",Player1)  // Shield of Harmony +3
+END
+
+IF
+Global("StageInit","LOCALS",0)
+XPGT(Myself,4000000)
+THEN
+RESPONSE #100
+SetGlobal("StageInit","LOCALS",1)
+SetGlobal("ValenStage","LOCALS",4)
+END
+
+IF
+Global("StageInit","LOCALS",0)
+XPGT(Myself,3000000)
+THEN
+RESPONSE #100
+SetGlobal("StageInit","LOCALS",1)
+SetGlobal("ValenStage","LOCALS",3)
+END
+
+IF
+Global("StageInit","LOCALS",0)
+XPGT(Myself,2000000)
+THEN
+RESPONSE #100
+SetGlobal("StageInit","LOCALS",1)
+SetGlobal("ValenStage","LOCALS",2)
+END
+
+IF
+Global("StageInit","LOCALS",0)
+XPGT(Myself,1000000)
+THEN
+RESPONSE #100
+SetGlobal("StageInit","LOCALS",1)
+SetGlobal("ValenStage","LOCALS",1)
+END
+
+IF
+Global("StageInit","LOCALS",0)
+!XPGT(Myself,1000000)
+THEN
+	RESPONSE #100
+SetGlobal("StageInit","LOCALS",1)
+SetGlobal("ValenStage","LOCALS",0)
+END
+
+IF
+Global("StageInit","LOCALS",1)
+Global("ValenFixUp","LOCALS",1)
+Global("ValenStage","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("ValenFixUp","LOCALS",0)
+DestroyItem("valenh5") 
+DestroyItem("valenh4") 
+DestroyItem("valenh3")  
+DestroyItem("valenh2") 
+DestroyItem("valenh1")  
+CreateItem("valenh1",1,1,1)  
+END
+
+IF
+Global("StageInit","LOCALS",1)
+Global("ValenFixUp","LOCALS",1)
+Global("ValenStage","LOCALS",1)
+THEN
+RESPONSE #100
+SetGlobal("ValenFixUp","LOCALS",0)
+DestroyItem("valenh5") 
+DestroyItem("valenh4")  
+DestroyItem("valenh3") 
+DestroyItem("valenh2") 
+DestroyItem("valenh1") 
+CreateItem("valenh2",1,1,1)  
+END
+
+IF
+Global("StageInit","LOCALS",1)
+Global("ValenFixUp","LOCALS",1)
+Global("ValenStage","LOCALS",2)
+THEN
+RESPONSE #100
+SetGlobal("ValenFixUp","LOCALS",0)
+DestroyItem("valenh5") 
+DestroyItem("valenh4")  
+DestroyItem("valenh3") 
+DestroyItem("valenh2")  
+DestroyItem("valenh1") 
+CreateItem("valenh3",1,1,1)  
+END
+
+IF
+Global("StageInit","LOCALS",1)
+Global("ValenFixUp","LOCALS",1)
+Global("ValenStage","LOCALS",3)
+THEN
+RESPONSE #100
+SetGlobal("ValenFixUp","LOCALS",0)
+DestroyItem("valenh5")  
+DestroyItem("valenh4") 
+DestroyItem("valenh3")  
+DestroyItem("valenh2")  
+DestroyItem("valenh1") 
+CreateItem("valenh4",1,1,1)  
+END
+
+IF
+Global("StageInit","LOCALS",1)
+Global("ValenFixUp","LOCALS",1)
+Global("ValenStage","LOCALS",4)
+THEN
+RESPONSE #100
+SetGlobal("ValenFixUp","LOCALS",0)
+DestroyItem("valenh5") 
+DestroyItem("valenh4")  
+DestroyItem("valenh3")  
+DestroyItem("valenh2")  
+DestroyItem("valenh1") 
+CreateItem("valenh5",1,1,1)  
+END
+
+IF
+CombatCounter(0)
+!Detect([ENEMY])
+HasItem("valena1",Myself)  
+XPGT(Myself,1000000)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("ValenStage","LOCALS",1)
+TakeItemReplace("valena2","valena1",Myself) 
+DestroyItem("valenh5")  
+DestroyItem("valenh4") 
+DestroyItem("valenh3")  
+DestroyItem("valenh2") 
+DestroyItem("valenh1") 
+CreateItem("valenh2",1,1,1) 
+ReallyForceSpell(Myself,RED_PILLAR_VISUAL)  
+ApplySpell(Myself,HELL_GAIN_STR) 
+ApplySpell(Myself,HELL_GAIN_DEX) 
+ApplySpell(Myself,HELL_GAIN_INT)  
+ApplySpell(Myself,HELL_GAIN_CHR)  
+Wait(3)
+EndCutSceneMode()
+END
+
+IF
+CombatCounter(0)
+!Detect([ENEMY])
+HasItem("valena2",Myself) 
+XPGT(Myself,2000000)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("ValenStage","LOCALS",2)
+TakeItemReplace("valena3","valena2",Myself) 
+DestroyItem("valenh5") 
+DestroyItem("valenh4") 
+DestroyItem("valenh3") 
+DestroyItem("valenh2") 
+DestroyItem("valenh1") 
+CreateItem("valenh3",1,1,1) 
+ReallyForceSpell(Myself,RED_PILLAR_VISUAL) 
+ApplySpell(Myself,HELL_GAIN_STR)  
+ApplySpell(Myself,HELL_GAIN_DEX) 
+ApplySpell(Myself,HELL_GAIN_INT) 
+ApplySpell(Myself,HELL_GAIN_CHR) 
+Wait(3)
+EndCutSceneMode()
+END
+
+IF
+CombatCounter(0)
+!Detect([ENEMY])
+HasItem("valena3",Myself)  
+XPGT(Myself,3000000)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("ValenStage","LOCALS",3)
+TakeItemReplace("valena4","valena3",Myself) 
+DestroyItem("valenh5")  
+DestroyItem("valenh4") 
+DestroyItem("valenh3") 
+DestroyItem("valenh2") 
+DestroyItem("valenh1") 
+CreateItem("valenh4",1,1,1) 
+ReallyForceSpell(Myself,RED_PILLAR_VISUAL) 
+ApplySpell(Myself,HELL_GAIN_STR) 
+ApplySpell(Myself,HELL_GAIN_DEX) 
+ApplySpell(Myself,HELL_GAIN_INT) 
+ApplySpell(Myself,HELL_GAIN_CHR) 
+Wait(3)
+EndCutSceneMode()
+END
+
+IF
+CombatCounter(0)
+!Detect([ENEMY])
+Global("ValenStage","LOCALS",3)
+XPGT(Myself,4000000)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("ValenStage","LOCALS",4)
+DestroyItem("valenh5") 
+DestroyItem("valenh4") 
+DestroyItem("valenh3") 
+DestroyItem("valenh2") 
+DestroyItem("valenh1")  
+CreateItem("valenh5",1,1,1)  
+ReallyForceSpell(Myself,RED_PILLAR_VISUAL) 
+ApplySpell(Myself,HELL_GAIN_STR)  
+ApplySpell(Myself,HELL_GAIN_DEX)  
+ApplySpell(Myself,HELL_GAIN_INT) 
+ApplySpell(Myself,HELL_GAIN_CHR) 
+Wait(3)
+EndCutSceneMode()
+END
+
+IF
+CombatCounter(0)
+Global("Hunt1","LOCALS",0)
+!Detect([ENEMY])
+XPGT(Myself,2499999)
+!AreaCheck("AR2300")
+!AreaCheck("AR2400")
+OR(3)
+!AreaType(OUTDOOR)
+!AreaType(DAYNIGHT)
+TimeOfDay(NIGHT)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+SetGlobal("Hunt1","LOCALS",1)
+ActionOverride(Player1,CreateCreatureOffScreen("valenuh4",0))  
+EndCutSceneMode()
+END
+
+IF
+IsValidForPartyDialogue("Valen")  
+IsValidForPartyDialogue("Anomen")  
+OR(2)
+Alignment("Anomen",LAWFUL_GOOD)  
+Alignment("Anomen",LAWFUL_NEUTRAL)  
+THEN
+RESPONSE #100
+StartDialogNoSet(Player1)
+END
+
+IF
+IsValidForPartyDialogue("Valen")  
+OR(3)
+IsValidForPartyDialogue("Keldorn") 
+IsValidForPartyDialogue("Aerie") 
+IsValidForPartyDialogue("Mazzy") 
+THEN
+RESPONSE #100
+StartDialogNoSet(Player1)
+END
+

@@ -1,0 +1,12 @@
+IF
+IsValidForPartyDialogue("Valen") 
+Global("TempleShout0903","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("TempleShout0903","GLOBAL",1)
+ActionOverride("valen",DisplayString(Myself,@9901)) 
+ActionOverride("heartg3",ReallyForceSpell(Myself,CLERIC_DETECT_EVIL)) 
+Wait(1)
+ActionOverride("heartg4",DisplayString(Myself,@9902))  
+END
+

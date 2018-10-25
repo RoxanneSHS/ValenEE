@@ -1,0 +1,144 @@
+BACKUP ~valen/backup~
+AUTHOR ~weimer@cs.berkeley.edu~
+
+VERSION ~v50~
+
+ALWAYS
+ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charset = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%~
+      reload_array = fl#reload
+      END
+END
+
+LANGUAGE "American English" "american" 
+  ~valen/american/setup.tra~
+  ~valen/american/epilogue.tra~
+LANGUAGE "Francais (traduction de Ly Meng, Laurent Duvernet et Cocobard)" "french" 
+  ~valen/american/setup.tra~
+  ~valen/french/setup.tra~
+  ~valen/american/epilogue.tra~
+  ~valen/french/epilogue.tra~
+LANGUAGE ~Traducción al Español (hecha por Clan REO)~ "spanish"
+  ~valen/american/setup.tra~
+  ~valen/spanish/setup.tra~
+  ~valen/american/epilogue.tra~
+  ~valen/spanish/epilogue.tra~
+LANGUAGE ~Deutsche Sprache (Übersetzung durch Sebastian de Waal & Thalantyr & Tanis & Falk)~ 
+  "german"
+  ~valen/american/setup.tra~
+  ~valen/german/setup.tra~
+  ~valen/american/epilogue.tra~
+LANGUAGE ~Polski je;zyk (Przet?umaczony przez Grzesiek Miazga)~ 
+  "polish"
+  ~valen/american/setup.tra~
+  ~valen/polish/setup.tra~
+  ~valen/american/epilogue.tra~
+  ~valen/polish/epilogue.tra~
+LANGUAGE ~Italiano (by Al17 e Kelvan, http://rtt.altervista.org)~
+   ~valen/american/setup.tra~
+   ~valen/italian/setup.tra~
+   ~valen/american/epilogue.tra~
+   ~valen/italian/epilogue.tra~
+LANGUAGE ~Russian (translation by AERIE.ru)~
+         ~russian~
+         ~valen/american/setup.tra~
+         ~valen/russian/setup.tra~
+         ~valen/russian/epilogue.tra~
+LANGUAGE "Chinese-Simplified (translation by yun395,kalabaka)" "chs" 
+  ~valen/american/setup.tra~
+  ~valen/chs/setup.tra~		
+  ~valen/american/epilogue.tra~
+  ~valen/chs/epilogue.tra~
+LANGUAGE "Japanese (translation by ironthrone)" "japan" 
+  ~valen/american/setup.tra~
+  ~valen/japan/setup.tra~		
+  ~valen/american/epilogue.tra~
+  ~valen/japan/epilogue.tra~
+
+BEGIN ~Valen~
+
+
+COPY    ~valen/valenS.bmp~      ~override/valenS.bmp~
+        ~valen/valenL.bmp~      ~override/valenL.bmp~
+        ~valen/valenL.bmp~      ~portraits/valenL.bmp~
+        ~valen/valenS.bmp~      ~portraits/valenS.bmp~
+
+COPY_EXISTING ~ANAST.CRE~      ~override/ANAST.CRE~
+  WRITE_ASCII 0x34 "valenS" #8
+
+COPY_EXISTING ~C6VALEN.CRE~     ~override/c6valen.cre~
+  SAY NAME1 @16 SAY NAME2 @16
+
+COPY    ~valen/valen.cre~       ~override/valen.cre~
+  SAY BIO @15
+
+COMPILE   ~valen/baf/valen.baf~      
+
+COPY    ~valen/itm/valen.spl~     ~override/valen.spl~ SAY NAME1 @1 SAY NAME2 @1
+COPY    ~valen/itm/valena1.itm~   ~override/valena1.itm~ SAY NAME2 @2 SAY DESC @3 
+COPY    ~valen/itm/valena2.itm~   ~override/valena2.itm~ SAY NAME2 @2 SAY DESC @4 
+COPY    ~valen/itm/valena3.itm~   ~override/valena3.itm~ SAY NAME2 @2 SAY DESC @5 
+COPY    ~valen/itm/valena4.itm~   ~override/valena4.itm~ SAY NAME2 @2 SAY DESC @6
+COPY    ~valen/itm/valenmst.spl~    ~override/valenmst.spl~
+  SAY NAME1 ~gaseous form~
+  SAY NAME2 ~gaseous form~
+
+COPY    ~valen/itm/valenh1.itm~   ~override/valenh1.itm~ SAY NAME2 @7 SAY DESC @12 
+COPY    ~valen/itm/valenh2.itm~   ~override/valenh2.itm~ SAY NAME2 @7 SAY DESC @8 
+COPY    ~valen/itm/valenh3.itm~   ~override/valenh3.itm~ SAY NAME2 @7 SAY DESC @9
+COPY    ~valen/itm/valenh4.itm~   ~override/valenh4.itm~ SAY NAME2 @7 SAY DESC @10
+COPY    ~valen/itm/valenh5.itm~   ~override/valenh5.itm~ SAY NAME2 @7 SAY DESC @11
+
+COMPILE ~valen/D/valen.d~
+  USING ~valen/american/valen.tra~
+        ~valen/%s/valen.tra~
+
+COMPILE ~valen/D/valenint.d~
+  USING ~valen/american/valenint.tra~
+        ~valen/%s/valenint.tra~
+
+
+  COMPILE ~valen/D/valentob.d~
+    USING ~valen/american/valentob.tra~
+          ~valen/%s/valentob.tra~
+
+
+APPEND ~pdialog.2da~
+~Valen      ValenP           ValenJ          ValenD~
+UNLESS ~Valen~
+UNLESS ~25POST~
+
+APPEND ~pdialog.2da~
+~Valen      ValenP           ValenJ          ValenD       ValenP                ValenJ                Valen                   Valen~
+UNLESS ~Valen~
+IF ~25POST~
+
+EXTEND_TOP ~ar0902.bcs~ ~valen/baf/ar0902.baf~
+EXTEND_TOP ~ar0903.bcs~ ~valen/baf/ar0903.baf~
+EXTEND_TOP ~sht0903.bcs~ ~valen/baf/sht0903.baf~
+EXTEND_TOP ~sht0902.bcs~ ~valen/baf/sht0903.baf~
+
+// The Vampire Hunters
+COPY    ~valen/hunt1/valenuh1.cre~      ~override/valenuh1.cre~
+  SAY NAME1 @20 SAY NAME2 @20
+COPY    ~valen/hunt1/valenuh2.cre~      ~override/valenuh2.cre~
+  SAY NAME1 @21 SAY NAME2 @21
+COPY    ~valen/hunt1/valenuh3.cre~      ~override/valenuh3.cre~
+  SAY NAME1 @22 SAY NAME2 @22
+COPY    ~valen/hunt1/valenuh4.cre~      ~override/valenuh4.cre~
+  SAY NAME1 @23 SAY NAME2 @23
+COMPILE ~valen/hunt1/valensla.baf~     
+        ~valen/hunt1/valenuh4.baf~     
+COMPILE ~valen/D/hunt1.d~
+  USING ~valen/american/hunt1.tra~
+        ~valen/%s/hunt1.tra~
+
+// ToB Epilogue
+COPY ~valen/baf/valenend.2da~ ~override/valenend.2da~ REPLACE ~999999~ @999999
+EXTEND_TOP ~ar6200.bcs~ ~valen/baf/valenend.baf~
+
+EXTEND_TOP_REGEXP ~.*\(PRIE\|CLER\|HEAL\|PRST\|SHAM\).*\.BCS~ ~valen/baf/priest.baf~ 
