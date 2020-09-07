@@ -4,7 +4,8 @@ AUTHOR ~weimer@cs.berkeley.edu~
 VERSION ~v50~
 
 ALWAYS
-ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
+
+ACTION_DEFINE_ARRAY fl#reload BEGIN setup epilogue END
   LAF HANDLE_CHARSETS
     INT_VAR
       infer_charset = 1
