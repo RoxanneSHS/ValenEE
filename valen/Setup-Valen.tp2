@@ -1,7 +1,7 @@
 BACKUP ~valen/backup~
 AUTHOR ~weimer@cs.berkeley.edu~
 
-VERSION ~v51~
+VERSION ~v52~
 
 ALWAYS
 
@@ -142,4 +142,4 @@ COMPILE ~valen/D/hunt1.d~
 COPY ~valen/baf/valenend.2da~ ~override/valenend.2da~ REPLACE ~999999~ @999999
 EXTEND_TOP ~ar6200.bcs~ ~valen/baf/valenend.baf~
 
-EXTEND_TOP_REGEXP ~.*\(PRIE\|CLER\|HEAL\|PRST\|SHAM\).*\.BCS~ ~valen/baf/priest.baf~ 
+//EXTEND_TOP_REGEXP ~.*\(PRIE\|CLER\|HEAL\|PRST\|SHAM\).*\.BCS~ ~valen/baf/priest.baf~
