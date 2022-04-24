@@ -7,8 +7,8 @@ style='font-size:12.0pt;font-family:"Times New Roman",serif'>Valen NPC</span></b
 
 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
 normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><img
-width=166 height=260 id="Picture 1" src="valenl.jpg"
-alt="gallery/valenl"></span></p>
+width=166 height=260 id="Picture 1" src="valen.jpg"
+alt="gallery/valen"></span></p>
 
 <p class=MsoNormal style='line-height:normal'><b><span lang=EN-US
 style='font-size:12.0pt;font-family:"Times New Roman",serif'>NPC mod for BG2EE and EET</span></b></p>
