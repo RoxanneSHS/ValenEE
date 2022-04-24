@@ -15,6 +15,7 @@ style='font-size:12.0pt;font-family:"Times New Roman",serif'>NPC mod for BG2EE a
 
 <p class=MsoNormal style='line-height:normal'><span lang=EN-US
 style='font-size:12.0pt;font-family:"Times New Roman",serif'>Valen (Bodhi's messenger) becomes an NPC who can join your party.<br>
+
 - She's a Chaotic Evil Vampire fighter/thief. 
 - She has quite a bit of interjection dialogue in SoA. 
 - She won't get along with Aerie, Anomen, Keldorn or Mazzy.
