@@ -1,29 +1,29 @@
 // Illasera
-@1001 = ~Illasera lo Svelto, eh? Stai per diventare Illasera il Morto, puttana. Nessuna con una pettinatura tanto squallida come la tua puÚ essere un avversario di <CHARNAME>. Avresti almeno potuto piazzare qualche trappola in questa imboscata.~
-@1002 = ~Fai silenzio cagna. Non sei un figlia di Bhaal. Non sei neanche un pericolo per me. Mi interessa il solo <CHARNAME>... ed anche <PRO_HESHE> non riuscir‡ ad uscire vivo dallo scontro.~ 
+@1001 = ~Illasera lo Svelto, eh? Stai per diventare Illasera il Morto, puttana. Nessuna con una pettinatura tanto squallida come la tua pu√≤ essere un avversario di <CHARNAME>. Avresti almeno potuto piazzare qualche trappola in questa imboscata.~
+@1002 = ~Fai silenzio cagna. Non sei un figlia di Bhaal. Non sei neanche un pericolo per me. Mi interessa il solo <CHARNAME>... ed anche <PRO_HESHE> non riuscir√† ad uscire vivo dallo scontro.~ 
 
 // Sarevok
-@1010 = ~Credimi guerriero, la vita Ë sopravalutata. Tu hai l'infinita libert‡ delle morte? PerchÈ desideri i capricci della vita?~
-@1011 = ~Non so chi tu sia, vampiro, ma le nostre situazioni non sono uguali. La tua non morte ti garantisce libert‡ di movimento e un corpo vero. CosÏ non Ë per me...~
+@1010 = ~Credimi guerriero, la vita √® sopravalutata. Tu hai l'infinita libert√† delle morte? Perch√© desideri i capricci della vita?~
+@1011 = ~Non so chi tu sia, vampiro, ma le nostre situazioni non sono uguali. La tua non morte ti garantisce libert√† di movimento e un corpo vero. Cos√¨ non √® per me...~
 @1012 = ~Certo, sono "morta" molte volte... eppure sono ancora qui. Tu, invece, sei arrivato agli sgoccioli del tuo viaggio. ~
 @1013 = ~Credimi guerriero... so abbastanza per evitare che la Morte Finale mi prenda.~
 @1014 = ~Si, lo immagino. Comunque, i miei propositi sono per <CHARNAME>. Tu sei singolarmente... non qualificato per garantirmi quello che voglio. ~
 @1015 = ~Se sei stato senza corpo per molto tempo, ci sono alcune cose per cui io sono singolarmente... qualificata... a dargli~
-@1016 = ~Bah, ho problemi pi˘ grandi che perdere tempo con queste cose senza importanza.~
+@1016 = ~Bah, ho problemi pi√π grandi che perdere tempo con queste cose senza importanza.~
 
-@1020 = ~Oh, mi piace questa idea, <CHARNAME>. Da quello che ho sentito di Sarevok, lui potrebbere essere una perfetta aggiunta al nostro piccolo gruppo. Ambizione, potere, forza! E' cosÏ eccitante.~
+@1020 = ~Oh, mi piace questa idea, <CHARNAME>. Da quello che ho sentito di Sarevok, lui potrebbere essere una perfetta aggiunta al nostro piccolo gruppo. Ambizione, potere, forza! E' cos√¨ eccitante.~
 @1021 = ~Non sono un ciondolo per far giocare la morte, figliola.~
 @1022 = ~Ooh, stai giocando a fare il rude e il difficile.~
 @1023 = ~(sigh) <CHARNAME>, anche se le nostre ragioni sono diverse, devo essere d'accordo con il tuo animaletto vampiro.~
 
 // Mel
-@1030 = ~(bisbiglia) Fai attenzione, <CHARNAME>. Ho preparato cosÏ tante imboscate da riconoscerne una a miglia di distanza. Questa donna Ë astuta quanto un golem di adamantite... cioË significa che probabilmente pensa di non aver nulla da temere. ~
-@1031 = ~Lei o Ë pazza o Ë molto potente, o tutti e due.~
+@1030 = ~(bisbiglia) Fai attenzione, <CHARNAME>. Ho preparato cos√¨ tante imboscate da riconoscerne una a miglia di distanza. Questa donna √® astuta quanto un golem di adamantite... cio√® significa che probabilmente pensa di non aver nulla da temere. ~
+@1031 = ~Lei o √® pazza o √® molto potente, o tutti e due.~
 @1032 = ~Cosa ti porta qui, <CHARNAME>?~
 
 // Saradush Jailer
-@1033 = ~A dire il vero possiamo gi‡ andare e venire quando vogliamo. E poichÈ nessuno altro Ë qua gi˘ per sentire le tue urla, penso che sia giunta l'ora di dimostrarti che anche noi possiamo fare quello che ci pare.~
-@1034 = ~Di cosa stai parlando, donna? Sembri una di quelle persone che vive vicino alle cripte al sud delle citt‡.~
+@1033 = ~A dire il vero possiamo gi√† andare e venire quando vogliamo. E poich√© nessuno altro √® qua gi√π per sentire le tue urla, penso che sia giunta l'ora di dimostrarti che anche noi possiamo fare quello che ci pare.~
+@1034 = ~Di cosa stai parlando, donna? Sembri una di quelle persone che vive vicino alle cripte al sud delle citt√†.~
 @1035 = ~Interessante conoscenza, sacca di sangue. Stai fingendo bene, ma posso sentire da qui l'odore della tua paura. E' tempo di morire!~
 @1036 = ~Oh mamma!~
 
@@ -31,15 +31,15 @@
 @1040 = ~Credimi cara, berremo il suo sangue in un calice tra non troppo tempo.~
 
 // Kiser
-@1050  = ~PuÚ essere, ladro. Riconosco una truffa quando ne vedo una. Cosa ne dici di lasciarci fare il nostro lavoro e di appesantire le nostre tasce con qualche moneta? Potresti convincerci a non ucciderti.~
+@1050  = ~Pu√≤ essere, ladro. Riconosco una truffa quando ne vedo una. Cosa ne dici di lasciarci fare il nostro lavoro e di appesantire le nostre tasce con qualche moneta? Potresti convincerci a non ucciderti.~
 
 // Errard
-@1060 = ~Poiche non puoi fermarti per la morte, sar‡ LEI a fermarsi gentilemente per te! Preparati a morire, mago da strapazzo.~
+@1060 = ~Poiche non puoi fermarti per la morte, sar√† LEI a fermarsi gentilemente per te! Preparati a morire, mago da strapazzo.~
 
 // Squip
 @1070 = ~Ridammi subito il mio libro degli incantesimi, ladro.~
 @1071 = ~Uhm? Cosa stai dicendo?~
-@1072 = ~Ascoltami, mezzacalzetta. Il modo in cui tallonavi le persone in cerca di soldi era troppo evidente per non essere notato. I tuoi piccoli e fangosi passi ti hanno fatto scoprire. Ora mostraci il libro degli incantesimi o io ti mostrerÚ il tuo intenstino.~
+@1072 = ~Ascoltami, mezzacalzetta. Il modo in cui tallonavi le persone in cerca di soldi era troppo evidente per non essere notato. I tuoi piccoli e fangosi passi ti hanno fatto scoprire. Ora mostraci il libro degli incantesimi o io ti mostrer√≤ il tuo intenstino.~
 
 // Volo 
 @1080 = ~Raccontami di Valen.~
@@ -48,12 +48,12 @@
 @1083 = ~(dolcemente) E faresti meglio ad evitare di includere una mia descrizione nelle tue memorie, bardo, se tieni ai tuoi reni.~
 
 // Sister Farielle
-@1090 = ~Waukeen! Uno di quei mostri delle cripte ha osato entrare in questo sacro santuario. Dammi la forza per scacciarlo e per rispedirlo da dove Ë venuto!~
+@1090 = ~Waukeen! Uno di quei mostri delle cripte ha osato entrare in questo sacro santuario. Dammi la forza per scacciarlo e per rispedirlo da dove √® venuto!~
 
 
 // Phylidian
-@1100 = ~Ed avevano ragione, piccolino. Ci sono gi‡ alcune falene notturne intorno alla fiaccola di <CHARNAME>.~
-@1101 = ~Non ho avuto la possibilit‡ di cacciare una delle mie... beh, non riesco neanche a ricordare. Spero almeno che mi tu riserverai un degno scontro!~
+@1100 = ~Ed avevano ragione, piccolino. Ci sono gi√† alcune falene notturne intorno alla fiaccola di <CHARNAME>.~
+@1101 = ~Non ho avuto la possibilit√† di cacciare una delle mie... beh, non riesco neanche a ricordare. Spero almeno che mi tu riserverai un degno scontro!~
 
 // Gromnir
 @1110 = ~Non lo so riguardo <CHARNAME>, ma sto certamente aspettando con ansia di infilzare i miei denti dentro di te. Posso sentire l'odore del tuo sangue di mezz'orco da qui. Preparati per il Sonno Finale, folle! ~

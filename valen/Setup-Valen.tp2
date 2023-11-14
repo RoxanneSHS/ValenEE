@@ -1,19 +1,7 @@
 BACKUP ~valen/backup~
 AUTHOR ~weimer@cs.berkeley.edu~
 
-VERSION ~v52~
-
-ALWAYS
-
-ACTION_DEFINE_ARRAY fl#reload BEGIN setup epilogue END
-  LAF HANDLE_CHARSETS
-    INT_VAR
-      infer_charset = 1
-    STR_VAR
-      tra_path = EVAL ~%MOD_FOLDER%~
-      reload_array = fl#reload
-      END
-END
+VERSION ~v53~
 
 LANGUAGE "American English" "american" 
   ~valen/american/setup.tra~

@@ -1,23 +1,23 @@
-@1 = ~Enfin, la bête est en vue. Préparons-nous mes amis !~
-@2 = ~Nous sommes toujours prêts, "Van". Tu rajoutes dans le dramatique ?~
-@3 = ~Je voulais juste vous faire réaliser la gravité de la situation. Nous avons longuement étudié et sommes venus de loin pour exterminer cette menace.~
-@4 = ~Oui, oui, sauver le monde, tuer les vampires. Faisons se mettre ces passants à l'écart et allons tuer.~
-@5 = ~Ahem. Cher <PRO_SIRMAAM>, vous n'êtes peut-être pas au courant, mais cette dame blême avec qui vous voyagez est une créature des ténèbres: un vampire suceur de sang.~
-@6 = ~En tant que serviteurs du Seigneur de l'Aube, il est de notre devoir et de notre vocation de débarrasser le monde d'un tel mal. Cependant le combat peut être sanglant. S'il vous plaît, restez à l'écart, ainsi vous ne serez pas accidentellement blessés durant le combat.~
+@1 = ~Enfin, la bÃªte est en vue. PrÃ©parons-nous mes amis !~
+@2 = ~Nous sommes toujours prÃªts, "Van". Tu rajoutes dans le dramatique ?~
+@3 = ~Je voulais juste vous faire rÃ©aliser la gravitÃ© de la situation. Nous avons longuement Ã©tudiÃ© et sommes venus de loin pour exterminer cette menace.~
+@4 = ~Oui, oui, sauver le monde, tuer les vampires. Faisons se mettre ces passants Ã  l'Ã©cart et allons tuer.~
+@5 = ~Ahem. Cher <PRO_SIRMAAM>, vous n'Ãªtes peut-Ãªtre pas au courant, mais cette dame blÃªme avec qui vous voyagez est une crÃ©ature des tÃ©nÃ¨bres: un vampire suceur de sang.~
+@6 = ~En tant que serviteurs du Seigneur de l'Aube, il est de notre devoir et de notre vocation de dÃ©barrasser le monde d'un tel mal. Cependant le combat peut Ãªtre sanglant. S'il vous plaÃ®t, restez Ã  l'Ã©cart, ainsi vous ne serez pas accidentellement blessÃ©s durant le combat.~
 
-  @7 = ~Rêvez toujours, idiots. Valen travaille pour moi et bénéficie de la protection de ce groupe.~
-  @8 = ~J'ai bien peur de ne pouvoir vous laisser la détruire. Sa nature est odieuse, certes, mais ses pouvoirs me sont nécessaires pour achever ma quête.~
-  @9 = ~Très bien, je vais me reculer.~
+  @7 = ~RÃªvez toujours, idiots. Valen travaille pour moi et bÃ©nÃ©ficie de la protection de ce groupe.~
+  @8 = ~J'ai bien peur de ne pouvoir vous laisser la dÃ©truire. Sa nature est odieuse, certes, mais ses pouvoirs me sont nÃ©cessaires pour achever ma quÃªte.~
+  @9 = ~TrÃ¨s bien, je vais me reculer.~
 
-@10 = ~<CHARNAME>, à qui parles-tu ? Je ne vois personne. Tanova m'avait avertie de telles choses.~
+@10 = ~<CHARNAME>, Ã  qui parles-tu ? Je ne vois personne. Tanova m'avait avertie de telles choses.~
 
-@11 = ~Bien sûr que tu ne vois personne ma chère. Tu ne peux même pas m'entendre parler. Nous ne sommes pas devenus des chasseurs professionnels de vampires en commettant des erreurs d'amateurs.~
-@12 = ~Nous sommes protégés contre les morts-vivants. Ce n'est pas très fair-play ... mais ça ne l'est pas non plus d'échanger ton âme pour une vie diabolique renforcée par le sang des innocents. Toi et ton espèce êtes une abomination aux yeux de Lathandre.~
-@13 = ~Donc, "<CHARNAME>", Resterez-vous sur le côté ?~
+@11 = ~Bien sÃ»r que tu ne vois personne ma chÃ¨re. Tu ne peux mÃªme pas m'entendre parler. Nous ne sommes pas devenus des chasseurs professionnels de vampires en commettant des erreurs d'amateurs.~
+@12 = ~Nous sommes protÃ©gÃ©s contre les morts-vivants. Ce n'est pas trÃ¨s fair-play ... mais Ã§a ne l'est pas non plus d'Ã©changer ton Ã¢me pour une vie diabolique renforcÃ©e par le sang des innocents. Toi et ton espÃ¨ce Ãªtes une abomination aux yeux de Lathandre.~
+@13 = ~Donc, "<CHARNAME>", Resterez-vous sur le cÃ´tÃ© ?~
 
   @14 = ~Oui, je n'interviendrais pas.~
   @15 = ~Non ! Je vous combattrais d'abord !~
 
-@16 = ~Ainsi soit-il. En vous alliant à un tel démon, vous souillez votre humanité. Puisse le Seigneur de l'Aube avoir pitié de votre âme.~
+@16 = ~Ainsi soit-il. En vous alliant Ã  un tel dÃ©mon, vous souillez votre humanitÃ©. Puisse le Seigneur de l'Aube avoir pitiÃ© de votre Ã¢me.~
 @17 = ~Merci, <PRO_SIRMAAM>. Aux armes !~
 
