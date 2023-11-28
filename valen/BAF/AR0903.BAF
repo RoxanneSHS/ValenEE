@@ -1,6 +1,7 @@
 IF
 IsValidForPartyDialogue("Valen") 
 Global("TempleShout0903","GLOBAL",0)
+InMyArea("Valen")
 THEN
 RESPONSE #100
 SetGlobal("TempleShout0903","GLOBAL",1)

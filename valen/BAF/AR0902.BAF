@@ -1,6 +1,7 @@
 IF
 InParty("Valen")
 Global("TempleShout0902","GLOBAL",0)
+InMyArea("Valen")
 THEN
 RESPONSE #100
 SetGlobal("TempleShout0902","GLOBAL",1)

@@ -1,9 +1,9 @@
 BACKUP ~valen/backup~
 AUTHOR ~weimer@cs.berkeley.edu~
 
-VERSION ~v53~
+VERSION ~v54~
 
-LANGUAGE "American English" "american" 
+LANGUAGE "American English" "american"
   ~valen/american/setup.tra~
   ~valen/american/epilogue.tra~
 LANGUAGE "Francais (traduction de Ly Meng, Laurent Duvernet et Cocobard)" "french" 
@@ -61,6 +61,9 @@ COPY_EXISTING ~ANAST.CRE~      ~override/ANAST.CRE~
 
 COPY_EXISTING ~C6VALEN.CRE~     ~override/c6valen.cre~
   SAY NAME1 @16 SAY NAME2 @16
+  
+COPY_EXISTING ~Sarjai01.CRE~ ~override~
+              WRITE_BYTE 0x273 2
 
 COPY    ~valen/valen.cre~       ~override/valen.cre~
   SAY BIO @15
@@ -130,4 +133,3 @@ COMPILE ~valen/D/hunt1.d~
 COPY ~valen/baf/valenend.2da~ ~override/valenend.2da~ REPLACE ~999999~ @999999
 EXTEND_TOP ~ar6200.bcs~ ~valen/baf/valenend.baf~
 
-//EXTEND_TOP_REGEXP ~.*\(PRIE\|CLER\|HEAL\|PRST\|SHAM\).*\.BCS~ ~valen/baf/priest.baf~

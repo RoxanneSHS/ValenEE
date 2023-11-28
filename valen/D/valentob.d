@@ -56,7 +56,7 @@ INTERJECT SARKIS01 9 Valen_TOB5
 END SARKIS01 16
 
 INTERJECT SARMAG01 1 Valen_TOB6
-  == "VALENJ"   IF ~InParty("Valen")~ THEN @1060
+  == "VALENJ"   IF ~InParty("Valen") Range("Valen",10)~ THEN @1060
 END SARMAG01 2
 
 INTERJECT SARTHF2 0 Valen_TOB7
@@ -78,7 +78,7 @@ CHAIN3 SARVOLO valen
 END SARVOLO 9
 
 APPEND SARTEM01
-  IF WEIGHT #-1 ~InParty("Valen")~ THEN BEGIN eat_valen
+  IF WEIGHT #-1 ~InParty("Valen")See("Valen")~ THEN BEGIN eat_valen
     SAY @1090
     IF ~~ THEN DO
 ~Enemy() 
