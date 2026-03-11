@@ -21,8 +21,7 @@ LANGUAGE ~Deutsche Sprache (Übersetzung durch Sebastian de Waal & Thalantyr & Ta
   ~valen/american/setup.tra~
   ~valen/german/setup.tra~
   ~valen/american/epilogue.tra~
-LANGUAGE ~Polski je;zyk (Przet?umaczony przez Grzesiek Miazga)~ 
-  "polish"
+LANGUAGE ~Polski (Przetlumaczone przez Grzesiek Miazga, korekta Aristo)~ "polish"
   ~valen/american/setup.tra~
   ~valen/polish/setup.tra~
   ~valen/american/epilogue.tra~

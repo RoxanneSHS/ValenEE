@@ -1,119 +1,119 @@
-@1 = ~A kim¿e ty jesteœ?~
+@1 = ~A kimże ty jesteś?~
 
-@2 = ~kim jestem? Dlaczego mia³oby ciê to interesowaæ? Ale skoro pytasz... jestem Valen. Czy mo¿esz poœwieciæ mi chwilkê, aby wys³uchaæ mojej propozycji?~
+@2 = ~Kim jestem? Dlaczego miałoby cię to interesować? Ale skoro pytasz... jestem Valen. Czy możesz poświęcić chwilkę, aby wysłuchać mojej propozycji?~
 
-@9 = ~Wydajesz siê ca³kiem blada... prawie nienaturalnie blada. Czy jesteœ ranna?~
+@9 = ~Wydajesz się bardzo blada... prawie nienaturalnie blada. Czy jesteś ranna?~
 
-@3 = ~Mam... doœæ wra¿liw¹ skórê. Prawdopodobnie za du¿o czasu spêdzam w pomieszczeniach. Jestem tu jednak aby zaoferowaæ ci bardzo korzystn¹ ofertê. Czy wys³uchasz mnie?~
+@3 = ~Mam... dość wrażliwą skórę. Prawdopodobnie za dużo czasu spędzam w pomieszczeniach. Jestem tu jednak, by zaoferować ci bardzo korzystną ofertę. Czy zechcesz mnie wysłuchać?~
 
-@4 = ~To ma po prostu wyraŸnie wypisane "wampir". Dlaczego mam ci zaufaæ?~
+@4 = ~To całkiem oczywiste, że jesteś wampirem. Dlaczego mam ci zaufać?~
 
-@5 = ~Postêpujesz nieostro¿nie nie przy³¹czaj¹c siê do dzieci nocy, <CHARNAME>. Bardzo nieostro¿nie.~
-@6 = ~Jeœli dalej bêdziesz pod¹¿aæ to œcie¿k¹, bêdziesz sobie wykopywaæ grób, zamiast spotykaæ siê z istotami z niego zrodzonymi.~
-@7 = ~Wydajesz siê przedstawicielem ca³kiem inteligentnej rasy. Porozmawiaj z moj¹ Pani¹, <CHARNAME>, ¿ebym nie musia³a ciê atakowaæ.~
-@8 = ~W mieœcie trwa teraz wojna gildii, <CHARNAME>, a ty teraz jesteœ po stronie przegranych. Spotkaj siê z moj¹ Pani¹. Rozwa¿ jej ofertê. Ocal swoje w³asne ¿ycie i to nale¿¹ce do twojej zaginionej przyjació³ki.~
-
-/////////////////////////////////////////////////////////////////////
-
-@20 = ~W ka¿dym razie, jestem gotowa zaoferowaæ ci pewn¹ pomoc. Valen wierna s³u¿ka i cz³onek mojej... rodziny... dosta³a rozkaz towarzyszenia ci w tym zadaniu.~
-@21 = ~Jest skora przy³¹czyæ siê do twojego ma³ego... polowania... i bêdzie s³uchaæ twoich rozkazów tak jak moich. Bêdzie na ciebie czekaæ, tu¿ po naszej krótkiej rozmowie.~
-@22 = ~Jednak, dosta³am rozkaz, aby opuœciæ twoj¹ dru¿ynê jeœli tylko staniecie siê... zbyt prawi.~
-@23 = ~Skorzystaj z tego co ma do zaoferowania... albo nie. Po prostu upewnij siê, ¿e wykonasz wyznaczone zadanie.~
-@24 = ~A co do Z³odziei Cienia...~
+@5 = ~Są o wiele gorsze rzeczy od przymierza z dziećmi nocy, <CHARNAME>. O wiele, wiele gorsze.~
+@6 = ~Jeśli dalej będziesz podążać tą ścieżką, dojdzie do tego, że sam<PRO_HESHE> wykopiesz sobie grób. A ja proponuję ci jedynie rozmowę z istotami z niego zrodzonymi.~
+@7 = ~Wydajesz się inteligentnym przedstawicielem swojej rasy. Porozmawiaj z moją panią, <CHARNAME>, inaczej możemy kiedyś stać się wrogami.~ ~Wydajesz się inteligentną przedstawicielką swojej rasy. Porozmawiaj z moją panią, <CHARNAME>, inaczej możemy kiedyś stać się wrogami.~
+@8 = ~W mieście trwa właśnie wojna gildii, <CHARNAME>, a ty stoisz teraz po stronie przegranych. Spotkaj się z moją panią. Rozważ jej ofertę. Ocal swoje własne życie i to należące do twojej zaginionej przyjaciółki.~
 
 /////////////////////////////////////////////////////////////////////
-@100 = ~Co mogê dla ciebie zrobiæ, <CHARNAME>?~
-  @101 = ~Czym ty w ogóle jesteœ, Valen?~
-@102 = ~Jak ju¿ pewnie wiesz jestem jednym z najnowszych... dzie³ Bodhi.~
-@103 = ~Zanim wci¹gnê³a mnie na ³ono swej kochaj¹cej rodziny, by³am zwyk³ym z³odziejaszkiem. Tak jak wielu... ludzi... nie by³am zdolna uczciwie na siebie zarobiæ na ulicach Athkatli.~
-@104 = ~Zesz³am na drogê przestêpcz¹ w m³odym wieku i spêdzi³am wiele lat jako zwyk³y zbir, æwicz¹c moje zdolnoœci w pos³ugiwaniu siê sztyletem w ciemnych alejach. Nic mnie nie obchodzi³o poza brutaln¹ si³a, i nawet siê nie przejmowa³am finezj¹ potrzebn¹ do wepchniêcia komuœ no¿a w plecy.~
-@105 = ~Tanova znalaz³a mnie przed Stra¿¹ Miejsk¹ i zaprowadzi³a mnie do Bodhi. Wydawa³o siê jej, ¿e ujrza³a we mnie iskrê talentu.~
-@106 = ~Oczywiœcie zmaga³am siê. Kiedy tylko pozwolono mi zobaczyæ siê z Pani¹, myœla³am tylko o ucieczce.~
-@107 = ~Jednak zosta³am przez ni¹ obdarta z mych naiwnych przekonañ o wolnej woli szybciej, ni¿ s³oñce rozwiewa porann¹ mg³ê.~
-@108 = ~Jednym spojrzeniem przejê³a mnie na ca³e ¿ycie... i d³u¿ej. Mia³ plany zwi¹zane z moj¹ osob¹. Znienawidzeni Z³odzieje Cienia musz¹ zostaæ zbadani. Oszo³omieni. I pojmania.~
-@109 = ~Mia³am jej s³u¿yæ w tym zadaniu. Jednak wczeœniej musia³am siê nauczyæ czegoœ o ¿yciu z³odziei.~
-@110 = ~Moja Pani rozkaza³a mi zostaæ prawdziwym z³odziejem... a ja natychmiast wykona³am jej rozkaz. Dziêki jej z³otu i reputacji, w tajemnicy zosta³am wyszkolona przez nocne No¿e w pobliskim mieœcie. Ca³kowicie zapomnia³am swojego poprzedniego ¿ycia, jako wojowniczka, i nigdy ju¿ nie stara³am siê go przypominaæ.~
-@111 = ~Kiedy zobaczy³a jakim z³odziejem siê sta³am, moja Pani siê rozradowa³a. By³am niemal¿e doskona³ym narzêdziem. Tej nocy zosta³am obdarowana jej Poca³unkiem... i wtedy pozna³am piêkno œwiata mroku.~
-@112 = ~Wydaje mi siê, ¿e ludzie mog¹ zmieniaæ swoje profesje dowolnie, z wojownika staj¹c z³odziejem. Nieumarli s¹ bardziej... wszechstronni... w swoich d¹¿eniach.~
-@113 = ~Kiedy siê przebudzi³am z mojej przemiany, odkry³am, ¿e wiedza o walce powróci³a, aby wspólnie egzystowaæ z moimi zdolnoœciami z³odziejskimi. Zaczê³am s³u¿yæ mojej Pani jako wsparcie i zwiadowca.~
-@114 = ~Wykona³am wiele zadañ dla jej... satysfakcji. Jednym z ostatnich by³o poinformowanie ciê o spotkaniu. A teraz stojê przed tob¹, aby wykonaæ jej kolejne ¿yczenie.~
-  @121 = ~Co mo¿esz dla mnie zrobiæ Valen?~
-@122 = ~Pani rozkaza³a mi przy³¹czyæ siê do twojej dru¿yny i podró¿owaæ pod twoimi rozkazami... o ile nie ma wœród twych towarzyszy jakiœ obroñców moralnoœci.~
-@123 = ~Bêdê ci s³u¿y³a jako wojownik i... zwiadowca. Jestem ca³kiem zrêczna w otwieraniu wszelkich zamków, unikaniu pu³apek oraz ukrywaniu siê. Radzê te¿ sobie ca³kiem dobrze w walce.~
-@124 = ~Oczywiœcie to jak mnie wykorzystasz zale¿y jedynie od twoich planów. Mogê badaæ teren pozostaj¹c ukryt¹, usuwaæ wszelkie przeszkody albo zabijaæ niedosz³ych wrogów z ukrycia.~ 
-@125 = ~Zapamiêtaj jednak, ¿e mam silny... instynkt. Tak, bêdê wykonywa³a twoje rozkazy, ale pozostawiona sama sobie nie bêdê siê waha³a zabiæ twoich wrogów albo przygotowaæ siê do tego.~ 
-@126 = ~Ale mogê robiæ cokolwiek innego. Mo¿esz te¿, nie przyj¹æ moich us³ug o ile wykonasz rozkazy mojej Pani.~
-@127 = ~Jeœli ju¿ przyjmiesz mnie do dru¿yny, zapamiêtaj jedn¹ wa¿n¹ rzecz: nie mogê zostaæ przywrócona do ¿ycia, jeœli moje cia³o zostanie zniszczone. Œmieræ dla Umar³ego jest Ostateczna.~
 
-@131 = ~Na razie nic Valen.~
-@141 = ~Przy³¹cz siê do mnie.~
-@142 = ~Bardzo dobrze <CHARNAME>. Niech siê rozpocznie polowanie!~
+@20 = ~W każdym razie, jestem gotowa zaoferować ci pewną pomoc. Valen, wierna służka i członek mojej... rodziny... dostała rozkaz towarzyszenia ci w tym zadaniu.~
+@21 = ~Jest skora przyłączyć się do twojego małego... polowania... i będzie słuchać twoich rozkazów tak jak moich. Będzie na ciebie czekać, tuż po naszej krótkiej rozmowie.~
+@22 = ~Dostała jednak rozkaz, aby opuścić twoją drużynę, jeśli tylko staniecie się... zbyt prawi.~
+@23 = ~Skorzystaj z tego, co ma do zaoferowania... albo nie. Po prostu upewnij się, że wykonasz wyznaczone zadanie.~
+@24 = ~A co do Złodziei Cienia...~
 
-@200 = ~Ju¿ ze mn¹ skoñczy³eœ <CHARNAME>?~
-~Ju¿ ze mn¹ skoñczy³aœ <CHARNAME>?~
-@201 = ~Moja pomy³ka Valen. Wracaj do dru¿yny.~
+/////////////////////////////////////////////////////////////////////
+@100 = ~Co mogę dla ciebie zrobić, <CHARNAME>?~
+  @101 = ~Czym ty w ogóle jesteś, Valen?~
+@102 = ~Jak się zapewne domyślasz, jestem jednym z najnowszych... dzieł Bodhi.~
+@103 = ~Zanim wciągnęła mnie na łono swej kochającej rodziny, byłam zwykłym rabusiem. Tak jak wielu... ludzi... nie byłam zdolna uczciwie na siebie zarobić na ulicach Athkatli.~
+@104 = ~Zeszłam na drogę przestępczą w młodym wieku i spędziłam wiele lat jako zwykły zbir, ćwicząc moje zdolności w posługiwaniu się sztyletem w ciemnych alejach. Nic mnie nie obchodziło poza brutalną siła, i nawet się nie przejmowałam finezją potrzebną do wepchnięcia komuś noża w plecy.~
+@105 = ~Tanova znalazła mnie, zanim zrobiła to Straż Miejska, i zaprowadziła mnie do Bodhi. Wydawało się jej, że ujrzała we mnie iskrę talentu.~
+@106 = ~Oczywiście, opierałam się. Kiedy pozwolono mi stanąć przed obliczem pani, myślałam tylko o ucieczce.~
+@107 = ~Jednak zostałam przez nią obdarta z mych naiwnych przekonań o wolnej woli szybciej, niż słońce rozwiewa poranną mgłę.~
+@108 = ~Jednym spojrzeniem przejęła mnie na całe życie... i dłużej. Miała plany dotyczące znienawidzonych Złodziei Cienia. Należy ich zinfiltrować, zakłócić ich działalność. Przejmować ich ludzi.~
+@109 = ~Miałam jej służyć w tym zadaniu. Jednak wcześniej musiałam się nauczyć czegoś o życiu łotrzyka.~
+@110 = ~Moja pani poleciła mi zostać złodziejką... a ja natychmiast wykonałam jej rozkaz. Dzięki jej złotu i reputacji, w tajemnicy zostałam wyszkolona przez Nocne Noże w pobliskim mieście. Zapomniałam o swoim poprzednim życiu wojowniczki. Zostawiłam je za sobą i nie chciałam do niego wracać.~
+@111 = ~Kiedy zobaczyła, jakim złodziejem się stałam, moja pani się rozradowała. Byłam niemalże doskonałym narzędziem. Tamtej nocy zostałam obdarowana jej Pocałunkiem... i wtedy poznałam piękno świata mroku.~
+@112 = ~Ludzie, jak się wydaje, są bardziej zaszeregowani według profesji, więc stając się z wojownika złodziejem, muszą się bardziej skupić na byciu tym drugim. Nieumarli są bardziej... wszechstronni... w swoich dążeniach.~
+@113 = ~Kiedy się przebudziłam po mojej przemianie, odkryłam, że wiedza o walce powróciła, aby współistnieć z moimi zdolnościami złodziejskimi. Zaczęłam służyć mojej pani jako wsparcie w walce i inwigilacji.~
+@114 = ~Wykonałam już wiele zadań, by ją... zadowolić. Jednym z ostatnich było poinformowanie cię o spotkaniu. A teraz stoję przed tobą, aby wykonać jej kolejne życzenie.~
+  @121 = ~Co możesz dla mnie zrobić, Valen?~
+@122 = ~Pani rozkazała mi przyłączyć się do twojej drużyny i podróżować pod twoimi rozkazami... o ile nie ma wśród twych towarzyszy jakichś obrońców moralności.~
+@123 = ~Będę ci służyła jako wojowniczka i... zwiadowczyni. Jestem całkiem zręczna w otwieraniu wszelkich zamków, unikaniu pułapek oraz ukrywaniu się. Radzę też sobie całkiem dobrze w walce.~
+@124 = ~Oczywiście to, jak mnie wykorzystasz, zależy jedynie od twoich planów. Mogę badać teren pozostając ukrytą, usuwać wszelkie przeszkody albo zabijać niedoszłych wrogów z ukrycia.~ 
+@125 = ~Zapamiętaj jednak, że mam silny... instynkt. Tak, będę wykonywała twoje rozkazy, ale pozostawiona sama sobie nie będę się wahała zabić twoich wrogów albo przygotować się do tego.~ 
+@126 = ~Ale mogę robić cokolwiek innego. Możesz też nie przyjąć moich usług, o ile wykonasz rozkazy mojej pani.~
+@127 = ~Jeśli już przyjmiesz mnie do drużyny, zapamiętaj jedną ważną rzecz: nie mogę zostać przywrócona do życia, jeśli moje ciało zostanie zniszczone. Śmierć dla nieumarłego jest ostateczna.~
+
+@131 = ~Na razie nic, Valen.~
+@141 = ~Przyłącz się do mnie.~
+@142 = ~Dobrze, <CHARNAME>. Czas na polowanie!~
+
+@200 = ~Już ze mną skończyłeś, <CHARNAME>?~ ~Już ze mną skończyłaś, <CHARNAME>?~
+@201 = ~Moja pomyłka, Valen. Wracaj do drużyny.~
 @202 = ~Tak. Na razie tutaj zaczekaj.~
 
-@300 = ~Wybacz mi, <CHARNAME>, ale nie mogê podró¿owaæ ze œwiêtym Inkwizytorem Torma. Po prostu uwa¿am, ¿e nic by z tego nie wysz³o.~
-@301 = ~Przykro mi, <CHARNAME>, ale kap³anka Baervan i ja nie stworzy³ybyœmy zgranej dru¿yny. Jak d³ugo ona z tob¹ jest, ja nie mogê ci towarzyszyæ.~
-@302 = ~Wybacz mi, <CHARNAME>, ale nie bêdê mog³a utrzymywaæ zbyt dobrych stosunków z kap³anem Torma. Muszê opuœciæ twoj¹ dru¿ynê dopóki ten... Anomen jest z tob¹.~
-@303 = ~Przykro mi, <CHARNAME>, ale ta œwiêta wojowniczka Arvoreen nie bêdziemy siê trzymaæ razem. Nazwij to uraz¹, ale dopóki ona tu jest ja nie bêdê w twojej dru¿ynie.~
+@300 = ~Wybacz mi, <CHARNAME>, ale nie mogę podróżować ze świętym Inkwizytorem Torma. Po prostu uważam, że nic by z tego nie wyszło.~
+@301 = ~Przykro mi, <CHARNAME>, ale kapłanka Baervana i ja nie stworzyłybyśmy zgranej drużyny. Dopóki ona z tobą jest, ja nie mogę ci towarzyszyć.~
+@302 = ~Wybacz mi, <CHARNAME>, ale nie będę mogła utrzymywać dobrych stosunków z kapłanem Helma. Muszę opuścić twoją drużynę, dopóki ten... Anomen jest z tobą.~
+@303 = ~Przykro mi, <CHARNAME>, ale ta święta wojowniczka Arvoreena i ja nie będziemy się dogadywać. Możesz to nazwać przeczuciem. Muszę opuścić drużynę, dopóki ona w niej jest.~
 
-@310 = ~Pani! S³u¿y³am <CHARNAME>, tak jak sobie tego ¿yczy³aœ. Zabierz mnie ze sob¹: on ju¿ najwyraŸniej nie potrzebuje pomocy przeciwko Z³odziejom Cienia.~~Pani! S³u¿y³am <CHARNAME>, tak jak sobie tego ¿yczy³aœ. Zabierz mnie ze sob¹: ona ju¿ najwyraŸniej nie potrzebuje pomocy przeciwko Z³odziejom Cienia.~
-@311 = ~Zgadza siê. Nie ma ju¿ Z³odziei Cienia. Mój brat ma ju¿ wszystkie niezbêdne ofiary. I to dzia³a! Ju¿ czujê jak odzyskujê duszê.~
-@312 = ~Moja droga Valen, To wszystko oznacza, ¿e ju¿ wiêcej nie potrzebujê *ciebie*. Najpierw potrzebna mi by³aœ do zbadania Z³odziei Cienia i dostarczeniu odpowiedniej iloœci œwie¿ych cia³ do machiny mojego brata. Wykona³aœ to doskonale. Twoim drugim zadaniem by³o dopilnowanie, aby <CHARNAME> uda³o siê wykonaæ nasz¹ drobn¹... misjê.~
-@313 = ~I ponownie spisa³aœ siê doskonale. Teraz nie jesteœ mi ju¿ do niczego potrzebna. Po prostu pozbêdê siê ciebie, tak jak zrobi³abym to z ka¿dym innym narzêdziem.~
-@314 = ~B³agam ciê Pani, przemyœl to jeszcze raz! Nadal mogê ci siê przydaæ! Moje ¿ycie nale¿y do ciebie.~
-@315 = ~Biedna Valen. Wcale mnie nie obchodzi co czujesz i myœlisz, a naprawdê nie mam ju¿ na to czasu. G³ód zaczyna mi coraz bardziej doskwieraæ, marzê o podnieceniu wi¹¿¹cym siê z polowaniem. Jeœli naprawdê chcesz mi dogodziæ...~
+@310 = ~Pani! Służyłam mu, jak sobie tego życzyłaś. Zabierz mnie ze sobą: <CHARNAME> już nie potrzebuje pomocy przeciwko Złodziejom Cienia.~ ~Pani! Służyłam jej, jak sobie tego życzyłaś. Zabierz mnie ze sobą: <CHARNAME> już nie potrzebuje pomocy przeciwko Złodziejom Cienia.~
+@311 = ~Zgadza się. Nie ma już Złodziei Cienia. Mój brat ma już wszystkie niezbędne ofiary. I to działa! Już czuję, że odzyskałam duszę.~
+@312 = ~Moja droga Valen, to wszystko oznacza, że już więcej cię nie potrzebuję. Najpierw potrzebna mi byłaś do zbadania Złodziei Cienia i dostarczenia odpowiedniej ilości świeżych ciał potrzebnych do rytuału mojego brata. Spisałaś się doskonale. Twoim drugim zadaniem było dopilnowanie, aby <CHARNAME> przeżył<PRO_HESHE>, wykonując nasze drobne... misje.~
+@313 = ~I ponownie spisałaś się doskonale. Teraz nie jesteś mi już do niczego potrzebna. Po prostu pozbędę się ciebie, tak jak zrobiłabym to z każdym innym narzędziem.~
+@314 = ~Błagam cię, pani, przemyśl to jeszcze raz! Nadal mogę ci się przydać! Moje życie należy do ciebie.~
+@315 = ~Biedna Valen. Wcale mnie nie obchodzi, co czujesz i myślisz, a naprawdę nie mam już na to czasu. Głód zaczyna mi coraz bardziej doskwierać, marzę o ekscytującym pościgu. Jeśli naprawdę chcesz mnie zadowolić...~
 @316 = ~O tak, Bodhi!~
-@317 = ~... zostañ z <CHARNAME> i walcz przeciwko mnie. Dopilnuj, aby nasz przyjaciel wytrzyma³ do pojedynku. Podnieœ sw¹ rêkê przeciwko mnie Valen, bo tylko podczas walki naprawdê siê rozwijamy.~
-@318 = ~Twój los jest teraz zwi¹zany z <RACE> moje dziecko. Kiedy siê spotkamy nastêpnym razem, mam nadziejê, ¿e poczujê twoje szpony na moim gardle... albo moje na twoim.~
-@319 = ~Nie, b³agam!~
-@320 = ~Zamilknij! Wydalam swój rozkaz i powinnaœ go wykonaæ. Wykonaæ!~
-@321 = ~Tak, Bodhi. Moja wola nale¿y do ciebie. Bêdê s³u¿yæ <CHARNAME> podczas twojego polowania.~
-@322 = ~Wiêc niech siê ono zacznie.~
+@317 = ~... zostań z <PRO_SIRMAAM> i walcz u j<PRO_HISHER> boku. Przejdź przez podziemia Czarowięzów i dopilnuj, aby <CHARNAME> dotrwał<PRO_HESHE> do pojedynku ze mną. Podnieś swą rękę przeciwko mnie, Valen, bo tylko podczas walki naprawdę się rozwijamy.~
+@318 = ~Twój los jest teraz związany z tym pomiotem Bhaala, moje dziecko. Kiedy się spotkamy następnym razem, mam nadzieję, że poczuję twoje szpony na moim gardle... albo moje na twoim.~
+@319 = ~Nie, pani, błagam cię!~
+@320 = ~Zamilcz, Valen! Wydałam rozkaz i masz być mu posłuszna. Posłuszna!~
+@321 = ~Tak, Bodhi. Moja wola należy do ciebie. Wykonam rozkaz.~
+@322 = ~Więc niech się ono zacznie.~
 
-@330 = ~Bodhi, s³u¿y³am <CHARNAME> w mrokach pod Przytu³kiem. Sta³am u jego boku w Podmroku. Wykona³am twoje rozkazy. Przyjmij mnie z powrotem.~~Bodhi, s³u¿y³am <CHARNAME> w mrokach pod Przytu³kiem. Sta³am u jej boku w Podmroku. Wykona³am twoje rozkazy. Przyjmij mnie ponownie.~
-@331 = ~Ach, moja biedna, g³upiutka Valen. Powinnaœ s³uchaæ muzyki a nie s³ów ostatnim razem. Po tym jak odzyska³am moj¹ duszê i plan mojego brata zosta³ spe³niony ju¿ wiêcej ciê nie potrzebujê.~
-@332 = ~OdejdŸ, moja dawniej wierna s³u¿ko. Jesteœ teraz niewarta mojej uwagi.~
-@333 = ~Pani! Co pocznê bez ciebie? Nie bêdê wiedzia³ co mam robiæ.~
-@334 = ~Ach! Marnujesz mój czas swoim ¿a³osnymi jêkami, podczas gdy krew zaczyna coraz szybciej kr¹¿yæ w moich ¿y³ach. <CHARNAME> jest tutaj i jego krew bêdzie stanowiæ dla mnie po¿ywienie.~~Ach! Marnujesz mój czas swoim ¿a³osnymi jêkami, podczas gdy krew zaczyna coraz szybciej kr¹¿yæ w moich ¿y³ach. <CHARNAME> jest tutaj i jej krew bêdzie stanowiæ dla mnie po¿ywienie.~
-@335 = ~Jeœli naprawdê potrzebujesz moich rozkazów, wiêc rozkazujê ci wspieraæ <CHARNAME>. Uczyñ tê nasz¹ ostatni¹ walkê bardziej interesuj¹c¹ dla mnie.~ 
-@336 = ~Jak sobie ¿yczysz Pani.~
-@337 = ~Doskonale, a teraz zacznijmy!~
+@330 = ~Bodhi, <CHARNAME> wraz ze mną wydostał się z Czarowięzów. Stałam u jego boku w drodze przez Podmrok. Wykonałam twoje polecenie, moja pani. Przyjmij mnie z powrotem.~ ~Bodhi, <CHARNAME> wraz ze mną wydostała się z Czarowięzów. Stałam u jej boku w drodze przez Podmrok. Wykonałam twoje polecenie, moja pani. Przyjmij mnie z powrotem.~
+@331 = ~Ach, moja biedna, głupiutka Valen. Powinnaś była czytać między wierszami podczas naszej ostatniej rozmowy. Po tym, jak odzyskałam moją duszę i plan mojego brata został wykonany, już więcej cię nie potrzebuję.~
+@332 = ~Odejdź, moja droga niegdyś służko. Jesteś teraz niewarta mojej uwagi.~
+@333 = ~Pani! Co pocznę bez ciebie? Nie będę wiedziała, co mam robić.~
+@334 = ~Ach! Marnujesz mój czas swoim żałosnymi jękami, podczas gdy krew zaczyna coraz szybciej krążyć mi w żyłach. <CHARNAME> jest tutaj i chcę się pożywić j<PRO_HISHER> krwią.~
+@335 = ~Jeśli naprawdę potrzebujesz rozkazu, to nakazuję ci nadal go wspierać. Uczyń tę naszą ostatnią walkę bardziej interesującą dla mnie.~ ~Jeśli naprawdę potrzebujesz rozkazu, to nakazuję ci nadal ją wspierać. Uczyń tę naszą ostatnią walkę bardziej interesującą dla mnie.~
+@336 = ~Jak sobie życzysz, pani.~
+@337 = ~Doskonale, a teraz zaczynajmy!~
 
-@400 = ~Valen, dawniej tajemnicza s³u¿ka Bodhi, sta³a siê wa¿nym cz³onkiem twojej dru¿yny.~
-@401 = ~Valen, bêdê potrzebowaæ wszystkich moich zdolnoœci w nadchodz¹cej bitwie. Nie ruszaj ze mn¹ jeœli nie mogê ci ca³kowicie ufaæ. To nie jest pora abyœ przy³¹cza³a siê ponownie do moich wrogów.~
-@402 = ~Valen, to nie jest twoja walka. Teraz kiedy Bodhi nie¿yje mo¿esz robiæ cokolwiek tylko chcesz. Jesteœ wolna. Nie musisz pod¹¿aæ ze mn¹ do walki z tym szalonym magiem.~
+@400 = ~Valen, tajemnicza służka Bodhi, choć nie zdobyła pełni twojego zaufania, stała się ważnym członkiem drużyny.~
+@401 = ~Valen, w nadchodzącej bitwie muszę się w pełni skoncentrować na przeciwniku. Nie idź ze mną, jeśli nie mogę całkowicie liczyć na twoją lojalność. To nie pora, abyś ponownie związała swój los z moimi wrogami.~
+@402 = ~Valen, to nie jest twoja walka. Teraz, kiedy Bodhi nie żyje, możesz robić cokolwiek tylko chcesz. Jesteś wolna. Nie musisz mi towarzyszyć w walce z tym szalonym magiem.~
 
-@403 = ~Mo¿esz mi ufaæ <CHARNAME>. Jestem gotowa na ka¿dy twój rozkaz. Kiedyœ by³o to jedynie ¿yczeniem Bodhi, teraz jest ono mym w³asnym. Dowiod³eœ, ¿e jesteœ silniejszy od Bodhi, nieumar³ych a nawet Irenicusa.~~Mo¿esz mi ufaæ <CHARNAME>. Jestem gotowa na ka¿dy twój rozkaz. Kiedyœ by³o to jedynie ¿yczeniem Bodhi, teraz jest ono mym w³asnym. Dowiod³aœ, ¿e jesteœ silniejsza od Bodhi, nieumar³ych a nawet Irenicusa.~@404 = ~Jak mog³abym nie sprzymierzyæ siê z tak¹ potêg¹? Twoja moc mnie wzywa. Jestem na ka¿dy twój rozkaz <PRO_LADYLORD>.~
+@403 = ~Możesz mi ufać, <CHARNAME>. Jestem gotowa na każdy twój rozkaz. Kiedyś było to jedynie życzeniem Bodhi, teraz jest ono mym własnym. Dowiodłeś, że jesteś silniejszy od Bodhi, nieumarłych, a nawet Irenicusa.~ ~Możesz mi ufać, <CHARNAME>. Jestem gotowa na każdy twój rozkaz. Kiedyś było to jedynie życzeniem Bodhi, teraz jest ono mym własnym. Dowiodłaś, że jesteś silniejsza od Bodhi, nieumarłych, a nawet Irenicusa.~
+@404 = ~Jak mogłabym nie sprzymierzyć się z taką potęgą? Twoja moc mnie wzywa, przyciąga jak ćmę do światła. Jestem na każdy twój rozkaz, <PRO_LADYLORD>.~
 
-@405 = ~Wolnoœæ? Nie rozœmieszaj mnie. Nikt z nas nie jest wolny. Bez Bodhi mam wolnoœæ w podejmowaniu w³asnych decyzji... có¿ za wielka odpowiedzialnoœæ.~
-@406 = ~Wolnoœæ nie jest zawsze przyjemna. Kiedy moja wola by³a zale¿na od Bodhi, nie mia³am ¿adnych w¹tpliwoœci czy dylematów. Jeœli nie udam siê z tob¹ do kolejnego pomieszczenia, co innego bêdê robi³a?~
-@407 = ~Tu³a³a siê po œwiecie? Stworzê w³asny klan wampirów? Nie, jestem istot¹ czynu. Moje miejsce jest przy tobie. Moja krew œpiewa w oczekiwaniu na walkê.~
+@405 = ~Wolność? Nie rozśmieszaj mnie. Nikt z nas nie jest wolny, <CHARNAME>. Bez Bodhi mam wolność podejmowania decyzji... cóż za wielka odpowiedzialność.~
+@406 = ~Wolność nie jest zawsze przyjemna. Kiedy moja wola była zależna od Bodhi, nie miałam żadnych wątpliwości czy dylematów. Jeśli nie pójdę z tobą dalej, co innego będę robiła?~
+@407 = ~Mam tułać się po świecie? Utworzyć własny klan wampirów? Nie, jestem istotą czynu, a nie refleksji. Moje miejsce jest przy tobie. Moja krew śpiewa w oczekiwaniu na walkę.~
 
 // Salvanas and Valen
-@500 = ~Och witaj. Zbada³em ciê dot¹d i musia³em zadaæ sobie pytanie: "Salvanas, có¿ za tajemnicza istota mo¿e posiadaæ tak nadnaturalny wdziêk?"~
-@501 = ~Có¿ za stworzenie? Pewnie to, które z chêci¹ odebra³oby ci jednoczeœnie twój dobytek, ¿ycie i œmiertelnoœæ?~
-@502 = ~Moja droga, moje cia³o pragnie ostudziæ siê w twych p³ynach.~
-@503 = ~A ja czujê nag³¹ potrzebê zaspokojenia mojego apetytu w p³ynach twoich arterii. Ca³kiem... wszechogarniaj¹ce... po¿¹danie...~
-@504 = ~Hm.. hm.. hm.. wspaniale, która to ju¿ godzina? Muszê uciekaæ... zmykaæ choæ bêdzie mi brakowa³o tego spotkania!~
+@500 = ~Och, witaj. Dostrzegłem twoje rozkołysane ruchy i musiałem zadać sobie pytanie: „Salvanasie, cóż to za urzekająca istota może posiadać tak intrygujący, nadnaturalny wdzięk?”~
+@501 = ~Cóż za istota? Może taka, która z chęcią odebrałoby ci jednocześnie twój dobytek, życie i śmiertelność?~
+@502 = ~Moja droga, moje ciało pragnie ostudzić się w twych płynach.~
+@503 = ~A ja czuję nagłą potrzebę zaspokojenia mojego apetytu w płynach twoich tętnic. Dość... przytłaczające... pożądanie...~
+@504 = ~Hmm... mm... wspaniale, która to już godzina? Muszę uciekać... i to szybko, inaczej spóźnię się na statek!~
 
 // Talk Directly To Valen
-@600 = ~Tak <CHARNAME>?~
+@600 = ~Tak, <CHARNAME>?~
 
-@601 = ~Czy mog³abyœ przestaæ próbowaæ ukrywaæ siê.~
-@602 = ~Staraj siê trzymaæ poza wzrokiem naszych wrogów.~
-@603 = ~Mo¿esz przestaæ atakowaæ wrogów bez mojego rozkazu. Rozumiem, ¿e jest to wbrew twojej naturze, ale nasza walka wymaga wiêcej subtelnoœci.~
-@604 = ~Nadszed³ czas na dzia³anie, masz moje zezwolenie na atakowanie wrogów kiedy tylko zechcesz.~
-@605 = ~Czy mo¿esz sprawdziæ czy twoje szpony i zbroja s¹ w dobrym stanie?~
-@606 = ~Nic.~
-@607 = ~Przestañ podejmowaæ próby przejêcia kontroli nad umys³ami naszych wrogów.~
-@608 = ~Zmieniam moje zdanie, u¿ywaj swoich mocy na naszych przeciwnikach.~
-@609 = ~Nie potrzebujê ju¿ abyœ szuka³a pu³apek i side³, Valen.~
-@610 = ~Valen, proszê miej ponownie oko na pu³apki ustawione na naszej drodze.~
+@601 = ~Czy mogłabyś przestać próbować ukrywać się?~
+@602 = ~Staraj się trzymać poza wzrokiem naszych wrogów.~
+@603 = ~Chciał<PRO_HESHE>bym, żebyś przestała atakować wrogów bez mojego rozkazu. Rozumiem, że jest to wbrew twojej naturze, ale nasza walka wymaga więcej subtelności.~
+@604 = ~Nadszedł czas na działanie. Masz moje zezwolenie na atakowanie wrogów, kiedy tylko zechcesz.~
+@605 = ~Możesz sprawdzić, czy twoje szpony i zbroja są w dobrym stanie?~
+@606 = ~Już nic, nieważne.~
+@607 = ~Przestań podejmować próby przejęcia kontroli nad umysłami naszych wrogów.~
+@608 = ~Zmieniam moje zdanie, używaj swoich mocy na naszych przeciwnikach.~
+@609 = ~Nie potrzebuję już, abyś szukała pułapek i sideł, Valen.~
+@610 = ~Valen, proszę, miej ponownie oko na pułapki ustawione na naszej drodze.~
 
-@697 = ~O tak! <CHARNAME> w³aœnie dowodzisz, ¿e jednak jesteœ inteligentny.~
-@698 = ~Nie podoba mi siê to, ale post¹piê tak, jak tego sobie ¿yczysz... do pewnego stopnia. Czasem ¿¹dza krwi jest zbyt silna, aby móc j¹ zignorowaæ.~
+@697 = ~O tak! Widzę, <CHARNAME>, że jednak okazujesz trochę rozsądku.~
+@698 = ~Nie podoba mi się to, ale zrobię, jak sobie życzysz... do pewnego stopnia. Czasem żądza krwi jest zbyt silna, abym mogła ją zignorować.~
 @699 = ~Bardzo dobrze.~
 

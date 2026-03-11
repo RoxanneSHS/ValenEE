@@ -1,23 +1,22 @@
-@1 = ~Nareszcie, bestia jest w naszym zasiêgu. Przygotujcie siê moi towarzysze!~
-@2 = ~Jesteœmy zawsze gotowi, "Van". Nie przesadzasz za bardzo?~
-@3 = ~Chcê po prostu abyœcie docenili powagê tej sytuacji. Zbyt d³ugo studiowaliœmy i wêdrowaliœmy, aby wreszcie zg³adziæ tê bestiê.~
-@4 = ~Tak, tak, ocalmy œwiat, zniszczmy wampiry. Pozb¹dŸmy siê teraz tych przechodniów i zajmijmy siê naszym celem.~
-@5 = ~Czcigodny <PRO_SIRMAAM>, mo¿e nie zdajesz sobie z tego sprawy, ale ta blado-lica dama podró¿uj¹ca z tob¹ jest stworzeniem mroku: wampirem ¿ywi¹cym siê krwi¹.~ ~Czcigodna <PRO_SIRMAAM>, mo¿e nie zdajesz sobie z tego sprawy, ale ta blado-lica dama podró¿uj¹ca z tob¹ jest stworzeniem mroku: wampirem ¿ywi¹cym siê krwi¹.~
-@6 = ~Jako s³udzy Pana Brzasku jest naszym obowi¹zkiem i wezwaniem wyzwolenie œwiata z tego z³a. Jakkolwiek, ta bitwa mo¿e byæ krwawa. Proszê stañ na uboczu, abyœ nie zosta³ przypadkiem ranny podczas tej potyczki.~ 
+@1 = ~Nareszcie, bestia jest w zasięgu wzroku. Przygotujcie się, moi towarzysze!~
+@2 = ~Zawsze jesteśmy gotowi, Van. Nie przesadzasz za bardzo?~
+@3 = ~Chcę tylko, abyście docenili powagę tej sytuacji. Długo studiowaliśmy i wędrowaliśmy, aby wreszcie zgładzić tę bestię.~
+@4 = ~Tak, tak, ocalmy świat, zniszczmy wampiry. Pozbądźmy się tylko tych postronnych i zajmijmy się naszym celem.~
+@5 = ~Czcigodny panie, może nie zdajesz sobie z tego sprawy, ale ta bladolica dama podróżująca z tobą jest stworzeniem mroku: wampirem żywiącym się krwią.~ ~Czcigodna pani, może nie zdajesz sobie z tego sprawy, ale ta bladolica dama podróżująca z tobą jest stworzeniem mroku: wampirem żywiącym się krwią.~
+@6 = ~Jako słudzy Pana Brzasku mamy obowiązek i misję, by wyzwolić świat od tego zła. Ta walka będzie zapewne krwawa. Stań proszę na uboczu, abyś nie został przypadkiem ranny podczas tej potyczki.~ ~Jako słudzy Pana Brzasku mamy obowiązek i misję, by wyzwolić świat od tego zła. Ta walka będzie zapewne krwawa. Stań proszę na uboczu, abyś nie została przypadkiem ranna podczas tej potyczki.~
 
-~Jako s³ug pana Poranku do naszych obowi¹zków wyzwolenie œwiata z tego z³a. Jakkolwiek, ta bitwa mo¿e byæ krwawa. Proszê stañ na uboczu, abyœ nie zosta³a przypadkiem ranny podczas tej potyczki.~
-@7 = ~Nie ma mowy, g³upcy. Valen pracuje dla mnie i docenia ochronê mojej dru¿yny.~
-@8 = ~Obawiam siê, ¿e nie mogê ci na to pozwoliæ. Jej natura mo¿e byæ ohydna, ale jej moce s¹ mi niezbêdne do zakoñczenia mojego zadania.~
-@9 = ~Bardzo dobrze, odsunê siê wiêc.~
+@7 = ~Nie ma mowy, głupcy. Valen pracuje dla mnie i korzysta z ochrony mojej drużyny.~
+@8 = ~Obawiam się, że nie mogę ci na to pozwolić. Jej natura może być ohydna, ale jej moce są mi niezbędne do zakończenia mojej misji.~
+@9 = ~Dobrze, odejdę na bok.~
 
-@10 = ~<CHARNAME>, z kim rozmawiasz? Nie widzê nikogo. Tanova ostrzega³a mnie przed takimi sztuczkami.~
+@10 = ~<CHARNAME>, z kim rozmawiasz? Nie widzę nikogo. Tanova ostrzegała mnie przed takimi sztuczkami.~
 
-@11 = ~Oczywiœcie, ¿e nikogo nie widzisz, kochana. Ty mnie nawet nie s³yszysz. Nie bylibyœmy najlepszymi ³owcami wampirów, gdybyœmy pope³niali takie amatorskie pomy³ki.~
-@12 = ~Jesteœmy chronieni przed nieumar³ymi. Mo¿e i jest to nie sportowe zachowani... ale nikt z nas nie ma zamiaru zamieniæ swojej duszy na piekielny nie¿ywot wspierany przez krew niewinnych. Ty i twój rodzaj jesteœcie przedmiotem odrazy w oczach Lathandera.~
-@13 = ~Wiêc, "<CHARNAME>", czy odst¹pisz?~
+@11 = ~Oczywiście, że nikogo nie widzisz, kochana. Nawet nie możesz mnie usłyszeć. Nie bylibyśmy najlepszymi łowcami wampirów, gdybyśmy popełniali takie amatorskie pomyłki.~
+@12 = ~Jesteśmy chronieni przed nieumarłymi. Może i nie jest to do końca honorowe... ale zamiana własnej duszy na piekielny nieżywot krzepiony krwią niewinnych jest daleko gorsza. Ty i twój rodzaj budzicie odrazę w oczach Lathandera.~
+@13 = ~A zatem, <CHARNAME>, czy odstąpisz?~
 
-@14 = ~Tak, nie bêdê przeszkadza³.~ ~Tak, nie bêdê przeszkadza³a.~
-@15 = ~Nie! Bêdê z wami walczy³!~ ~Nie! Bêdê z wami walczy³a!~
-@16 = ~Niech tak bêdzie. Sprzymierzaj¹c siê z t¹ besti¹ zatracasz swoje cz³owieczeñstwo. Niech pan Poranka zlituje siê nad twoj¹ dusz¹..~
-@17 = ~Dziêkujê, <PRO_SIRMAAM>. Do broni!~
+@14 = ~Tak, nie będę się wtrącać.~
+@15 = ~Nie! Będę z wami walczyć!~
+@16 = ~Niech tak będzie. Sprzymierzając się z tą bestią, wyrzekasz się swojego człowieczeństwa. Niech Pan Poranka zlituje się nad twoją duszą.~
+@17 = ~Dziękuję, <PRO_LADYLORD>. Do broni!~
 
